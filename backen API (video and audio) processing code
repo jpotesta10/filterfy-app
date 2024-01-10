@@ -1,0 +1,5 @@
+// this will turn video and audio into a description.
+It twill dormulate suggestion on best solution for instructions to filter.fy library API request
+It will submit request to API
+It will receive video and run quality control process (described in the other project on my github.  contact Joseph Potesta at j.potesta@columbia.edu for access to this)
+Once video editing feedback loop is completed (Quality sufficient = True), it will add new video to view code log, automatically updating the user interface to display the response video (in this case the response video is just a filter that was automaticaly chosen through a machine learning algorithm)
