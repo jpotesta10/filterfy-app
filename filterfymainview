@@ -1,0 +1,19 @@
+Import video.process.filterfy library
+Import can.access.device library 
+
+Init video.log 
+
+Init []
+
+def video.real-time = “current video view or upload”(video.file.log)
+
+
+ fbutton (action.file(UploadTo.ImportVideoLog)
+//this is a button that puts video into log that is accessed by backend code
+
+button (record live)(access.cam)
+
+//access.cam is a function in the library you imported which connects users camera to the view code of the app and allows app to access video 
+
+Filter.fy(view.log)
+//this let’s filter app modify the video.  In a zelerete sheet in our project, we established the API along with instructions we wrote in our app about how to talk to this API based on information that was transcribed into natural language and suggests what types of filters our app should request the API to execute in order to process the video and create the new video /video response that the user is likely to find helpful.
